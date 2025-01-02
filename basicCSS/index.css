@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@100;300;400;700;900&display=swap');
+*{
+  font: 1em sans-serif;
+}
+body{
+  height: 100vh; /* Set height to full viewport */
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;    /* Vertically center */
+ background-color: #f0f0f0
+}
+
+.cad-container{
+  background-color: aqua;
+  width: 650px;
+  padding: 20px 40px;
+  border: 2px double gold;
+
+}
+h1{
+  text-align: center;
+  top: 0%;
+  font-variant: small-caps;
+
+}
+button{
+  background-color: gold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  
+}
+h1,span{
+  color: darkblue;
+  letter-spacing: 2px;
+}
+.tex{
+  font-family: 'Tex';
+}
+span{
+  text-transform: uppercase;
+  font-weight: 3px;
+}
+@font-face {
+  font-family: 'Tex';
+  src: url(./PlaywriteFRModerneGuides-Regular.ttf);
+};
