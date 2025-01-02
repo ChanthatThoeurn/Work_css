@@ -1,0 +1,40 @@
+
+.content-ner{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-content: space-around; */
+    align-content: start;
+    
+}
+.card{
+    background-color: gold;
+    width: calc((100% - (20px * 3)) / 4);
+    color: aqua;
+    height: 200px;
+    /* width: 200px; */
+}
+.flex-con{
+    display: flex;
+    width: 40%;
+    border: 5px solid gold;
+    padding: 10px;
+    align-content:end;
+   
+    
+}
+.item1{
+    flex-shrink: 3;
+    width: 300px;
+    background-color: red;
+}
+.item2{
+    flex-shrink: 2;
+    width: 200px;
+    background-color: aquamarine;
+}
+.item3{
+    flex-shrink: 1;
+    background-color: aqua;
+}
