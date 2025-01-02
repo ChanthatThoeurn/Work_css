@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.head-one p{
+    font-size: 30px;
+}
+.head-one{
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+    position: sticky;
+    top : 0;
+}
+.head-one a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+}
+.head-one a:hover{
+    color: blueviolet;
+}
+.head-one ul{
+    display: flex;
+    gap: 100px;
+    list-style:none;
+}
+.head-one button{   
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 7px;
+}
+.head-one button:hover{
+    color: yellow;
+}
+.sec1{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.sec1 h1{
+    color: gold;
+    margin-top: 50px;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.sec1 p{
+    color: darkblue;
+    font-size: 1.5rem;
+}
+.sec2 {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 90px;
+    margin-top: 50px;
+    border-radius: 10px;   
+    width: 100%;     
+}
+.sec2 a:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.sec2 ul{
+    display: flex;
+    gap: 100px;
+    list-style:none;
+    border: none;
+}
+.sec2 a{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+main{
+    padding: 0px 90px;
+}
+       /* Group Image */
+.main-content-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100% ;
+    gap: 20px;
+
+}
+.car1{
+    width: calc((100% - (20px * 4) ) /5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color:whitesmoke;
+    padding: 16px;
+    position: relative;
+    z-index:1;
+}
+.car1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.car1 img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin:0;
+    text-align: center;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-top:  0%;
+}
+.content{
+    padding: 10px;
+}
+.content h3{
+    text-align: center;
+}
+.content p{
+    margin-bottom: 10px;
+}
+.label, .card-footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.label small{
+    padding: 4px 6px;
+    background-color: gold;
+    border-radius: 10px;
+}
+.content h2{
+    margin: 10px 0;
+    text-align: center;
+}
+.rating{
+    margin: 5px 0;
+}
+.card-footer{
+    margin-top: 10px;
+}
+.last{
+    text-align: center;
+    margin-top: 10px;
+}
+.last:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.icon-top{
+   position:absolute;
+   right: 20px;
+}
