@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+   width: 300px;
+}
+thead{
+    background-color: gold;
+}
+tr td:nth-child(1){
+    background-color:blue;
+} 
+tr td:nth-child(2){
+    background-color: aqua;
+}
+tr td:nth-child(3){
+    background-color: red;
+}
+tbody tr:hover{
+    background-color:whitesmoke;
+}
